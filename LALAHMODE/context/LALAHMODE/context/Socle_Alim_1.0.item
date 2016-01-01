@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType confirmationNeeded="false" name="Default">
+    <contextParameter comment="Chemin de fichier de context pour le chargement implicit" name="fichierContexte" prompt="fichierContexte?" promptNeeded="false" type="id_String" value="&quot;C:\TIS_DEV\contexte_default.txt&quot;"/>
+    <contextParameter comment="Nom de la table dse statistiques Talend" name="statsTalend" prompt="statsTalend?" promptNeeded="false" type="id_String" value="TT_STATS_TALEND"/>
+    <contextParameter comment="Nom de la table des logs Talend" name="logsTalend" prompt="logsTalend?" promptNeeded="false" type="id_String" value="TT_LOGS_TALEND"/>
+    <contextParameter comment="Nom de la table des mesures Talend" name="mesuresTalend" prompt="mesuresTalend?" promptNeeded="false" type="id_String" value="TT_MESURES_TALEND"/>
+    <contextParameter comment="Id technique de l'alimentation" name="idAlim" prompt="idAlim?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter comment="Nom de l'alimentation" name="nomAlim" prompt="nomAlim?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Statut de l'exécution précédente" name="statutPrec" prompt="statutPrec?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Numéro du dernier  job lancé par l'exécution précédente" name="numJobPrec" prompt="numJobPrec?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Numéro du job à lancer par le master" name="numJobNew" prompt="numJobNew?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Date de delta au format DD/MM/YYYY HH:MI:SS" name="dateDelta" prompt="dateDelta?" promptNeeded="false" type="id_String" value="01/01/2000 00:00:00"/>
+    <contextParameter comment="Champ Destinatire de l'envoi du mail de CR" name="SMTPDest" prompt="SMTPDest?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Champ Expéditeur de l'envoi du mail de CR" name="SMTPExp" prompt="SMTPExp?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Champ CC de l'envoi du mail de CR" name="SMTPCC" prompt="SMTPCC?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom du serveur smtp" name="SMTPHost" prompt="SMTPHost?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Port du serveur smtp" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de l'utilisateur du serveur SMTP" name="SMTPUser" prompt="SMTPUser?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Password de l'utilisateur du serveur SMTP" name="SMTPPwd" prompt="SMTPPwd?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Liste des formats supportés par la diffusion" name="listeFormats" prompt="listeFormats?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Date de l'alimentation au format DD/MM/YYYY HH:MI:SS" name="dateAlim" prompt="dateAlim?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Emplacement des fichiers logs" name="repLogs" prompt="repLogs?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="" name="nameFlux" prompt="nameFlux?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Indique si on se trouve en mode reprise true/false" name="modeReprise" prompt="modeReprise?" promptNeeded="false" type="id_String" value="false"/>
+    <contextParameter comment="chaine prix urgent" name="PrixUrgent" prompt="PrixUrgent?" promptNeeded="false" type="id_String" value="null"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev">
+    <contextParameter comment="Chemin de fichier de context pour le chargement implicit" name="fichierContexte" prompt="fichierContexte?" promptNeeded="false" type="id_String" value="&quot;../../../contexte_default&quot;"/>
+    <contextParameter comment="Nom de la table dse statistiques Talend" name="statsTalend" prompt="statsTalend?" promptNeeded="false" type="id_String" value="TT_STATS_TALEND"/>
+    <contextParameter comment="Nom de la table des logs Talend" name="logsTalend" prompt="logsTalend?" promptNeeded="false" type="id_String" value="TT_LOGS_TALEND"/>
+    <contextParameter comment="Nom de la table des mesures Talend" name="mesuresTalend" prompt="mesuresTalend?" promptNeeded="false" type="id_String" value="TT_MESURES_TALEND"/>
+    <contextParameter comment="Id technique de l'alimentation" name="idAlim" prompt="idAlim?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter comment="Nom de l'alimentation" name="nomAlim" prompt="nomAlim?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Statut de l'exécution précédente" name="statutPrec" prompt="statutPrec?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Numéro du dernier  job lancé par l'exécution précédente" name="numJobPrec" prompt="numJobPrec?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Numéro du job à lancer par le master" name="numJobNew" prompt="numJobNew?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Date de delta au format DD/MM/YYYY HH:MI:SS" name="dateDelta" prompt="dateDelta?" promptNeeded="false" type="id_String" value="01/01/2000 00:00:00"/>
+    <contextParameter comment="Champ Destinatire de l'envoi du mail de CR" name="SMTPDest" prompt="SMTPDest?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Champ Expéditeur de l'envoi du mail de CR" name="SMTPExp" prompt="SMTPExp?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Champ CC de l'envoi du mail de CR" name="SMTPCC" prompt="SMTPCC?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom du serveur smtp" name="SMTPHost" prompt="SMTPHost?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Port du serveur smtp" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de l'utilisateur du serveur SMTP" name="SMTPUser" prompt="SMTPUser?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Password de l'utilisateur du serveur SMTP" name="SMTPPwd" prompt="SMTPPwd?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Liste des formats supportés par la diffusion" name="listeFormats" prompt="listeFormats?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Date de l'alimentation au format DD/MM/YYYY HH:MI:SS" name="dateAlim" prompt="dateAlim?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Emplacement des fichiers logs" name="repLogs" prompt="repLogs?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="" name="nameFlux" prompt="nameFlux?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Indique si on se trouve en mode reprise true/false" name="modeReprise" prompt="modeReprise?" promptNeeded="false" type="id_String" value="false"/>
+    <contextParameter comment="chaine prix urgent" name="PrixUrgent" prompt="PrixUrgent?" promptNeeded="false" type="id_String" value="null"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Integ">
+    <contextParameter comment="Chemin de fichier de context pour le chargement implicit" name="fichierContexte" prompt="fichierContexte?" promptNeeded="false" type="id_String" value="&quot;../../../contexte_default&quot;"/>
+    <contextParameter comment="Nom de la table dse statistiques Talend" name="statsTalend" prompt="statsTalend?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de la table des logs Talend" name="logsTalend" prompt="logsTalend?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de la table des mesures Talend" name="mesuresTalend" prompt="mesuresTalend?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Id technique de l'alimentation" name="idAlim" prompt="idAlim?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter comment="Nom de l'alimentation" name="nomAlim" prompt="nomAlim?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Statut de l'exécution précédente" name="statutPrec" prompt="statutPrec?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Numéro du dernier  job lancé par l'exécution précédente" name="numJobPrec" prompt="numJobPrec?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Numéro du job à lancer par le master" name="numJobNew" prompt="numJobNew?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Date de delta au format DD/MM/YYYY HH:MI:SS" name="dateDelta" prompt="dateDelta?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="Champ Destinatire de l'envoi du mail de CR" name="SMTPDest" prompt="SMTPDest?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Champ Expéditeur de l'envoi du mail de CR" name="SMTPExp" prompt="SMTPExp?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Champ CC de l'envoi du mail de CR" name="SMTPCC" prompt="SMTPCC?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom du serveur smtp" name="SMTPHost" prompt="SMTPHost?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Port du serveur smtp" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de l'utilisateur du serveur SMTP" name="SMTPUser" prompt="SMTPUser?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Password de l'utilisateur du serveur SMTP" name="SMTPPwd" prompt="SMTPPwd?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Liste des formats supportés par la diffusion" name="listeFormats" prompt="listeFormats?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Date de l'alimentation au format DD/MM/YYYY HH:MI:SS" name="dateAlim" prompt="dateAlim?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Emplacement des fichiers logs" name="repLogs" prompt="repLogs?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="" name="nameFlux" prompt="nameFlux?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Indique si on se trouve en mode reprise true/false" name="modeReprise" prompt="modeReprise?" promptNeeded="false" type="id_String" value="false"/>
+    <contextParameter comment="chaine prix urgent" name="PrixUrgent" prompt="PrixUrgent?" promptNeeded="false" type="id_String" value="null"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Preprod">
+    <contextParameter comment="Chemin de fichier de context pour le chargement implicit" name="fichierContexte" prompt="fichierContexte?" promptNeeded="false" type="id_String" value="&quot;../../../contexte_default&quot;"/>
+    <contextParameter comment="Nom de la table dse statistiques Talend" name="statsTalend" prompt="statsTalend?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de la table des logs Talend" name="logsTalend" prompt="logsTalend?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de la table des mesures Talend" name="mesuresTalend" prompt="mesuresTalend?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Id technique de l'alimentation" name="idAlim" prompt="idAlim?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter comment="Nom de l'alimentation" name="nomAlim" prompt="nomAlim?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Statut de l'exécution précédente" name="statutPrec" prompt="statutPrec?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Numéro du dernier  job lancé par l'exécution précédente" name="numJobPrec" prompt="numJobPrec?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Numéro du job à lancer par le master" name="numJobNew" prompt="numJobNew?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Date de delta au format DD/MM/YYYY HH:MI:SS" name="dateDelta" prompt="dateDelta?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="Champ Destinatire de l'envoi du mail de CR" name="SMTPDest" prompt="SMTPDest?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Champ Expéditeur de l'envoi du mail de CR" name="SMTPExp" prompt="SMTPExp?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Champ CC de l'envoi du mail de CR" name="SMTPCC" prompt="SMTPCC?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom du serveur smtp" name="SMTPHost" prompt="SMTPHost?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Port du serveur smtp" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de l'utilisateur du serveur SMTP" name="SMTPUser" prompt="SMTPUser?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Password de l'utilisateur du serveur SMTP" name="SMTPPwd" prompt="SMTPPwd?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Liste des formats supportés par la diffusion" name="listeFormats" prompt="listeFormats?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Date de l'alimentation au format DD/MM/YYYY HH:MI:SS" name="dateAlim" prompt="dateAlim?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Emplacement des fichiers logs" name="repLogs" prompt="repLogs?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="" name="nameFlux" prompt="nameFlux?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Indique si on se trouve en mode reprise true/false" name="modeReprise" prompt="modeReprise?" promptNeeded="false" type="id_String" value="false"/>
+    <contextParameter comment="chaine prix urgent" name="PrixUrgent" prompt="PrixUrgent?" promptNeeded="false" type="id_String" value="null"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod">
+    <contextParameter comment="Chemin de fichier de context pour le chargement implicit" name="fichierContexte" prompt="fichierContexte?" promptNeeded="false" type="id_String" value="&quot;../../../contexte_default&quot;"/>
+    <contextParameter comment="Nom de la table dse statistiques Talend" name="statsTalend" prompt="statsTalend?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de la table des logs Talend" name="logsTalend" prompt="logsTalend?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de la table des mesures Talend" name="mesuresTalend" prompt="mesuresTalend?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Id technique de l'alimentation" name="idAlim" prompt="idAlim?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Nom de l'alimentation" name="nomAlim" prompt="nomAlim?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Statut de l'exécution précédente" name="statutPrec" prompt="statutPrec?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Numéro du dernier  job lancé par l'exécution précédente" name="numJobPrec" prompt="numJobPrec?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Numéro du job à lancer par le master" name="numJobNew" prompt="numJobNew?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Date de delta au format DD/MM/YYYY HH:MI:SS" name="dateDelta" prompt="dateDelta?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="Champ Destinatire de l'envoi du mail de CR" name="SMTPDest" prompt="SMTPDest?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Champ Expéditeur de l'envoi du mail de CR" name="SMTPExp" prompt="SMTPExp?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Champ CC de l'envoi du mail de CR" name="SMTPCC" prompt="SMTPCC?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom du serveur smtp" name="SMTPHost" prompt="SMTPHost?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Port du serveur smtp" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de l'utilisateur du serveur SMTP" name="SMTPUser" prompt="SMTPUser?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Password de l'utilisateur du serveur SMTP" name="SMTPPwd" prompt="SMTPPwd?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Liste des formats supportés par la diffusion" name="listeFormats" prompt="listeFormats?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Date de l'alimentation au format DD/MM/YYYY HH:MI:SS" name="dateAlim" prompt="dateAlim?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Emplacement des fichiers logs" name="repLogs" prompt="repLogs?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="" name="nameFlux" prompt="nameFlux?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Indique si on se trouve en mode reprise true/false" name="modeReprise" prompt="modeReprise?" promptNeeded="false" type="id_String" value="false"/>
+    <contextParameter comment="chaine prix urgent" name="PrixUrgent" prompt="PrixUrgent?" promptNeeded="false" type="id_String" value="null"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Qualif">
+    <contextParameter comment="Chemin de fichier de context pour le chargement implicit" name="fichierContexte" prompt="fichierContexte?" promptNeeded="false" type="id_String" value="&quot;../../../contexte_default&quot;"/>
+    <contextParameter comment="Nom de la table dse statistiques Talend" name="statsTalend" prompt="statsTalend?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de la table des logs Talend" name="logsTalend" prompt="logsTalend?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de la table des mesures Talend" name="mesuresTalend" prompt="mesuresTalend?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Id technique de l'alimentation" name="idAlim" prompt="idAlim?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter comment="Nom de l'alimentation" name="nomAlim" prompt="nomAlim?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Statut de l'exécution précédente" name="statutPrec" prompt="statutPrec?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Numéro du dernier  job lancé par l'exécution précédente" name="numJobPrec" prompt="numJobPrec?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Numéro du job à lancer par le master" name="numJobNew" prompt="numJobNew?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Date de delta au format DD/MM/YYYY HH:MI:SS" name="dateDelta" prompt="dateDelta?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="Champ Destinatire de l'envoi du mail de CR" name="SMTPDest" prompt="SMTPDest?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Champ Expéditeur de l'envoi du mail de CR" name="SMTPExp" prompt="SMTPExp?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Champ CC de l'envoi du mail de CR" name="SMTPCC" prompt="SMTPCC?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom du serveur smtp" name="SMTPHost" prompt="SMTPHost?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Port du serveur smtp" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de l'utilisateur du serveur SMTP" name="SMTPUser" prompt="SMTPUser?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Password de l'utilisateur du serveur SMTP" name="SMTPPwd" prompt="SMTPPwd?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Liste des formats supportés par la diffusion" name="listeFormats" prompt="listeFormats?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Date de l'alimentation au format DD/MM/YYYY HH:MI:SS" name="dateAlim" prompt="dateAlim?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Emplacement des fichiers logs" name="repLogs" prompt="repLogs?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="" name="nameFlux" prompt="nameFlux?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Indique si on se trouve en mode reprise true/false" name="modeReprise" prompt="modeReprise?" promptNeeded="false" type="id_String" value="false"/>
+    <contextParameter comment="chaine prix urgent" name="PrixUrgent" prompt="PrixUrgent?" promptNeeded="false" type="id_String" value="null"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Recette">
+    <contextParameter comment="Chemin de fichier de context pour le chargement implicit" name="fichierContexte" prompt="fichierContexte?" promptNeeded="false" type="id_String" value="&quot;../../../contexte_default&quot;"/>
+    <contextParameter comment="Nom de la table dse statistiques Talend" name="statsTalend" prompt="statsTalend?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de la table des logs Talend" name="logsTalend" prompt="logsTalend?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de la table des mesures Talend" name="mesuresTalend" prompt="mesuresTalend?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Id technique de l'alimentation" name="idAlim" prompt="idAlim?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter comment="Nom de l'alimentation" name="nomAlim" prompt="nomAlim?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Statut de l'exécution précédente" name="statutPrec" prompt="statutPrec?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Numéro du dernier  job lancé par l'exécution précédente" name="numJobPrec" prompt="numJobPrec?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Numéro du job à lancer par le master" name="numJobNew" prompt="numJobNew?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Date de delta au format DD/MM/YYYY HH:MI:SS" name="dateDelta" prompt="dateDelta?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="Champ Destinatire de l'envoi du mail de CR" name="SMTPDest" prompt="SMTPDest?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Champ Expéditeur de l'envoi du mail de CR" name="SMTPExp" prompt="SMTPExp?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Champ CC de l'envoi du mail de CR" name="SMTPCC" prompt="SMTPCC?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom du serveur smtp" name="SMTPHost" prompt="SMTPHost?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Port du serveur smtp" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de l'utilisateur du serveur SMTP" name="SMTPUser" prompt="SMTPUser?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Password de l'utilisateur du serveur SMTP" name="SMTPPwd" prompt="SMTPPwd?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Liste des formats supportés par la diffusion" name="listeFormats" prompt="listeFormats?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Date de l'alimentation au format DD/MM/YYYY HH:MI:SS" name="dateAlim" prompt="dateAlim?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Emplacement des fichiers logs" name="repLogs" prompt="repLogs?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="" name="nameFlux" prompt="nameFlux?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Indique si on se trouve en mode reprise true/false" name="modeReprise" prompt="modeReprise?" promptNeeded="false" type="id_String" value="false"/>
+    <contextParameter comment="chaine prix urgent" name="PrixUrgent" prompt="PrixUrgent?" promptNeeded="false" type="id_String" value="null"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test">
+    <contextParameter comment="Chemin de fichier de context pour le chargement implicit" name="fichierContexte" prompt="fichierContexte?" promptNeeded="false" type="id_String" value="&quot;../../../contexte_default&quot;"/>
+    <contextParameter comment="Nom de la table dse statistiques Talend" name="statsTalend" prompt="statsTalend?" promptNeeded="false" type="id_String" value="TT_STATS_TALEND"/>
+    <contextParameter comment="Nom de la table des logs Talend" name="logsTalend" prompt="logsTalend?" promptNeeded="false" type="id_String" value="TT_LOGS_TALEND"/>
+    <contextParameter comment="Nom de la table des mesures Talend" name="mesuresTalend" prompt="mesuresTalend?" promptNeeded="false" type="id_String" value="TT_MESURES_TALEND"/>
+    <contextParameter comment="Id technique de l'alimentation" name="idAlim" prompt="idAlim?" promptNeeded="false" type="id_Integer" value="0"/>
+    <contextParameter comment="Nom de l'alimentation" name="nomAlim" prompt="nomAlim?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Statut de l'exécution précédente" name="statutPrec" prompt="statutPrec?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Numéro du dernier  job lancé par l'exécution précédente" name="numJobPrec" prompt="numJobPrec?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Numéro du job à lancer par le master" name="numJobNew" prompt="numJobNew?" promptNeeded="false" type="id_Integer" value=""/>
+    <contextParameter comment="Date de delta au format DD/MM/YYYY HH:MI:SS" name="dateDelta" prompt="dateDelta?" promptNeeded="false" type="id_String" value="01/01/2000 00:00:00"/>
+    <contextParameter comment="Champ Destinatire de l'envoi du mail de CR" name="SMTPDest" prompt="SMTPDest?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Champ Expéditeur de l'envoi du mail de CR" name="SMTPExp" prompt="SMTPExp?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Champ CC de l'envoi du mail de CR" name="SMTPCC" prompt="SMTPCC?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom du serveur smtp" name="SMTPHost" prompt="SMTPHost?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Port du serveur smtp" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Nom de l'utilisateur du serveur SMTP" name="SMTPUser" prompt="SMTPUser?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Password de l'utilisateur du serveur SMTP" name="SMTPPwd" prompt="SMTPPwd?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Liste des formats supportés par la diffusion" name="listeFormats" prompt="listeFormats?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Date de l'alimentation au format DD/MM/YYYY HH:MI:SS" name="dateAlim" prompt="dateAlim?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Emplacement des fichiers logs" name="repLogs" prompt="repLogs?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="" name="nameFlux" prompt="nameFlux?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="Indique si on se trouve en mode reprise true/false" name="modeReprise" prompt="modeReprise?" promptNeeded="false" type="id_String" value="false"/>
+    <contextParameter comment="chaine prix urgent" name="PrixUrgent" prompt="PrixUrgent?" promptNeeded="false" type="id_String" value="null"/>
+  </talendfile:ContextType>
+</xmi:XMI>
