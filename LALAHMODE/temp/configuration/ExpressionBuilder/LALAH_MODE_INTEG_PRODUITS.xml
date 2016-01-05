@@ -1,0 +1,8 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="null=>row2=>ID_ARTICLE" expression="1==1">
+  <variables name="row1.CODE" value="null" talendType="id_String"/>
+  <variables name="row1.LIBELLE" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.PRIX" value="null" talendType="id_BigDecimal" nullable="true"/>
+  <variables name="row1.NOM_IMAGE" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.ID_ARTICLE" value="null" talendType="id_BigDecimal" nullable="true"/>
+</expression:EMFExpression>

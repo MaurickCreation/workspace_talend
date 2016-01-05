@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_EHRI8LN1EeWSxp7FtCmF9w" name="LALAHMODE" id="_t_lgILN0EeWSxp7FtCmF9w" label="LALAHMODE" dataPackage="_EM4owLN1EeWSxp7FtCmF9w" ContextMode="true" ContextId="_CuKoALN1EeWSxp7FtCmF9w" contextName="Default" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/lalahmode" dbVersionString="PRIOR_TO_V9" Port="context.LALAHMODE_Port" Username="context.LALAHMODE_Login" Password="context.LALAHMODE_Password" ServerName="context.LALAHMODE_Server" DatasourceName="" FileFieldName="" SID="context.LALAHMODE_Database" SqlSynthax="Syntaxe SQL" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="context.LALAHMODE_Schema">
+    <taggedValue xmi:id="_EHa58LN1EeWSxp7FtCmF9w" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_EHyGULN1EeWSxp7FtCmF9w" tag="package filter" value=""/>
+    <taggedValue xmi:id="_EKrCQLN1EeWSxp7FtCmF9w" tag="Status" value=""/>
+    <taggedValue xmi:id="_EKrCQbN1EeWSxp7FtCmF9w" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_EKrCQrN1EeWSxp7FtCmF9w" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_EKrCQ7N1EeWSxp7FtCmF9w" tag="Description" value=""/>
+    <taggedValue xmi:id="_EKrCRLN1EeWSxp7FtCmF9w" tag="Author" value=""/>
+    <taggedValue xmi:id="_EKrCRbN1EeWSxp7FtCmF9w" tag="otherParameter"/>
+    <taggedValue xmi:id="_ELRfMLN1EeWSxp7FtCmF9w" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_ELRfMbN1EeWSxp7FtCmF9w" tag="DB ProductVersion" value="9.4.4"/>
+    <taggedValue xmi:id="_ELRfMrN1EeWSxp7FtCmF9w" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_EHa58bN1EeWSxp7FtCmF9w" key="CONN_PARA_KEY_USERNAME" value="lalahmode"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_EM4owLN1EeWSxp7FtCmF9w" name="lalahmode" dataManager="_EHRI8LN1EeWSxp7FtCmF9w">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EM4owbN1EeWSxp7FtCmF9w" name="public"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

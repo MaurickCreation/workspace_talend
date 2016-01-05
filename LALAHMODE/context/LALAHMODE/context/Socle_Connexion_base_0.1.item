@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
   <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" type="id_String" value="public"/>
+  <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" type="id_String" value="lalahmode"/>
+  <contextParameter comment="" name="pwd" prompt="pwd?" promptNeeded="false" type="id_String" value="lmode"/>
+  <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" type="id_String" value="5432"/>
   <contextParameter comment="" name="user" prompt="user?" promptNeeded="false" type="id_String" value="lalahmode"/>
-  <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" type="id_String" value="null"/>
-  <contextParameter comment="" name="mdp" prompt="mdp?" promptNeeded="false" type="id_String" value="null"/>
 </talendfile:ContextType>
